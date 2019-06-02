@@ -9,17 +9,17 @@
   border: 2px solid #ccc;
   padding: 10px;
   border-radius: 5px;
-  display: flex;
+  display: block;
 }
 .tag-container .tag{
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
   margin: 5px;
-  display: flex;
   align-items: center;
   background-color: #f2f2f2;
   cursor: default;
+  display: inline-block;
 }
 /* TODO: style the title class and tag icon */
 .container .title{
@@ -35,6 +35,7 @@
   font-size: 16px;
   margin-left: 5px;
   color: #c41111;
+  display: inline-block;
 }
 .tag-container input{
   flex: 1;
